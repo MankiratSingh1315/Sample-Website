@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-snap-type: y mandatory;
+}
+
+section.scroll{
+    scroll-snap-align:start;
+}
+
+.home{
+    margin: 0;
+    padding: 0;
+}
+#home {
+    background-image: url('assets/tinywow_51771987-abstract-modern-light-technical-background-_10223693.jpg');
+    height: 100vh;
+  }
+
+
+.homeline{
+    float: right;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    color: rgb(211, 134, 32);
+    font-size: 75px;
+}
+
+img.myimg{
+    height: 300px;
+
+
+    margin-left: 80px;
+    border-color: rgb(207, 160, 99);
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 6px;
+}
+
+.navbar{
+    text-align: right;
+    position:fixed;
+    right: 2px;
+}
+
+div.navbar a{
+    text-decoration: none;
+    font-size: 30px;
+    margin:5px;
+    color: black;
+    padding-right:30px;
+}
+
+div.navbar a:hover{
+    text-decoration: none;
+    font-size: 27px;
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-left: 25px;
+    border-radius: 30px;
+}
+
+.arrow{
+    position: relative;
+    height: 60px;
+    bottom: 10px;
+    left: 50vw;
+}
+
+
+
+#abtme{
+    background-image: url('assets/tinywow_51771987-abstract-modern-light-technical-background-_10223693.jpg') ;
+    height: 100vh;
+    text-align: center;
+    
+    
+}
+
+h1{
+    padding-top: 45px;
+    font-size: 50px;
+    color:rgb(211, 134, 32) ;
+}
+
+#abtme h3{
+    font-size: 25px;
+}
+
+hr.social{
+    width: 30vw;
+    align-self: center;
+    margin-bottom: 4px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+img.in{
+    height:40px;
+}
+
+img.insta{
+    height:40px;
+}
