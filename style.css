@@ -5,23 +5,15 @@
 
 html{
     scroll-behavior: smooth;
-}
-
-body{
+    overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
 
-section.scroll{
-    scroll-snap-align:start;
-}
 
-.home{
-    margin: 0;
-    padding: 0;
-}
 #home {
     background-image: url('assets/tinywow_51771987-abstract-modern-light-technical-background-_10223693.jpg');
     height: 100vh;
+    scroll-snap-align:start;
   }
 
 
@@ -46,9 +38,13 @@ img.myimg{
 }
 
 .navbar{
+    width: 100%;
+    background-color: white;
     text-align: right;
     position:fixed;
     right: 2px;
+    padding: 10px;
+    border-bottom:solid 1px;
 }
 
 div.navbar a{
@@ -80,12 +76,12 @@ div.navbar a:hover{
     background-image: url('assets/tinywow_51771987-abstract-modern-light-technical-background-_10223693.jpg') ;
     height: 100vh;
     text-align: center;
-    
+    scroll-snap-align:start;
     
 }
 
 h1{
-    padding-top: 45px;
+    padding-top: 55px;
     font-size: 50px;
     color:rgb(211, 134, 32) ;
 }
