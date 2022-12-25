@@ -45,6 +45,7 @@ img.myimg{
     right: 2px;
     padding: 10px;
     border-bottom:solid 1px;
+    z-index: 1;
 }
 
 div.navbar a{
@@ -64,7 +65,7 @@ div.navbar a:hover{
 }
 
 .arrow{
-    position: relative;
+    position: absolute;
     height: 60px;
     bottom: 10px;
     left: 50vw;
