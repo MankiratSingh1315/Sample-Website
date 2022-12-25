@@ -35,15 +35,14 @@ section.scroll{
     font-size: 75px;
 }
 
+
 img.myimg{
+    display: inline-block;
     height: 300px;
+    margin-left: 150px;
+    clip-path: circle(30% at 50% 50%);
+    transform: scale(200%);
 
-
-    margin-left: 80px;
-    border-color: rgb(207, 160, 99);
-    border-style: solid;
-    border-radius: 100%;
-    border-width: 6px;
 }
 
 .navbar{
